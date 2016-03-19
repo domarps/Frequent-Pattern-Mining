@@ -1,0 +1,18 @@
+lowerBoundMinSupport : 0.01,
+minMetric : 0.15,
+number of association rules :  12
+
+FPGrowth found 14 rules (displaying top 12)
+
+ 1. [page=1]: 131 ==> [web=1]: 107   <conf:(0.82)> lift:(6.63) lev:(0.01) conv:(4.59) 
+ 2. [natural=1]: 228 ==> [language=1]: 170   <conf:(0.75)> lift:(15.15) lev:(0.02) conv:(3.67) 
+ 3. [engine=1]: 181 ==> [search=1]: 122   <conf:(0.67)> lift:(9.49) lev:(0.01) conv:(2.8) 
+ 4. [service=1]: 267 ==> [web=1]: 117   <conf:(0.44)> lift:(3.56) lev:(0.01) conv:(1.55) 
+ 5. [retrieval=1]: 1114 ==> [information=1]: 475   <conf:(0.43)> lift:(3.51) lev:(0.03) conv:(1.53) 
+ 6. [information=1]: 1211 ==> [retrieval=1]: 475   <conf:(0.39)> lift:(3.51) lev:(0.03) conv:(1.46) 
+ 7. [language=1]: 490 ==> [natural=1]: 170   <conf:(0.35)> lift:(15.15) lev:(0.02) conv:(1.49) 
+ 8. [semantic=1]: 414 ==> [web=1]: 104   <conf:(0.25)> lift:(2.04) lev:(0.01) conv:(1.17) 
+ 9. [document=1]: 564 ==> [retrieval=1]: 141   <conf:(0.25)> lift:(2.23) lev:(0.01) conv:(1.18) 
+10. [search=1]: 707 ==> [web=1]: 173   <conf:(0.24)> lift:(1.99) lev:(0.01) conv:(1.16) 
+11. [system=1]: 757 ==> [information=1]: 157   <conf:(0.21)> lift:(1.71) lev:(0.01) conv:(1.11) 
+12. [system=1]: 757 ==> [retrieval=1]: 147   <conf:(0.19)> lift:(1.74) lev:(0.01) conv:(1.1) 

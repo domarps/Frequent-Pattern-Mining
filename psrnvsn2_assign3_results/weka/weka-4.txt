@@ -1,0 +1,18 @@
+lowerBoundMinSupport : 0.01
+minMetric : 0.15
+number of association rules : 12
+
+FPGrowth found 19 rules (displaying top 12)
+
+ 1. [concurrency=1]: 133 ==> [control=1]: 107   <conf:(0.8)> lift:(20.73) lev:(0.01) conv:(4.73) 
+ 2. [oriented=1]: 183 ==> [object=1]: 141   <conf:(0.77)> lift:(14.37) lev:(0.01) conv:(4.03) 
+ 3. [real=1]: 260 ==> [time=1]: 151   <conf:(0.58)> lift:(19.38) lev:(0.01) conv:(2.29) 
+ 4. [stream=1]: 212 ==> [data=1]: 112   <conf:(0.53)> lift:(5) lev:(0.01) conv:(1.88) 
+ 5. [time=1]: 295 ==> [real=1]: 151   <conf:(0.51)> lift:(19.38) lev:(0.01) conv:(1.98) 
+ 6. [processing=1]: 637 ==> [query=1]: 313   <conf:(0.49)> lift:(2.82) lev:(0.02) conv:(1.62) 
+ 7. [optimization=1]: 380 ==> [query=1]: 173   <conf:(0.46)> lift:(2.62) lev:(0.01) conv:(1.51) 
+ 8. [system=1]: 767 ==> [database=1]: 276   <conf:(0.36)> lift:(3.05) lev:(0.02) conv:(1.37) 
+ 9. [object=1]: 528 ==> [database=1]: 154   <conf:(0.29)> lift:(2.47) lev:(0.01) conv:(1.24) 
+10. [control=1]: 382 ==> [concurrency=1]: 107   <conf:(0.28)> lift:(20.73) lev:(0.01) conv:(1.37) 
+11. [object=1]: 528 ==> [oriented=1]: 141   <conf:(0.27)> lift:(14.37) lev:(0.01) conv:(1.34) 
+12. [efficient=1]: 508 ==> [query=1]: 124   <conf:(0.24)> lift:(1.4) lev:(0) conv:(1.09) 

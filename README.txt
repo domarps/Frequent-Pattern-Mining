@@ -1,0 +1,43 @@
+README - Machine Problem : Apriori Algorithm for Frequent Pattern Mining
+
+Name: Pramod Srinivasan
+NetId: psrnvsn2
+Email: psrnvsn2@illinois.edu
+
+- The submission directory contains three subdirectories, data, psrnvsn2_assign3_codes, psrnvsn2_assign3_results
+|-- data
+|   
+|-- psrnvsn2_assign3_codes
+|   
+|-- psrnvsn2_assign3_results
+    
+- The  psrnvsn2_assign3_codes directory contains the source code :  psrnvsn2_apriori_hw3.py
+   Execution : python psrnvsn2_apriori_hw3.py <min_support_value>  # default : 100
+- The data directory is **assumed** to contain the topic-* files required for the source code.
+	|-- data
+	|-- featureGenerator.py
+	|-- paper_raw.txt
+	|-- paper.txt
+	|-- readme.txt
+	|-- sample.txt
+	|-- topic-0.arff
+	|-- topic-0.txt
+	|-- topic-1.arff
+	|-- topic-1.txt
+	|-- topic-2.arff
+	|-- topic-2.txt
+	|-- topic-3.arff
+	|-- topic-3.txt
+	|-- topic-4.arff
+	|-- topic-4.txt
+	`-- vocab.txt
+- The psrnvsn2_assign3_results contains the following directories(directory and sub-directories automatically created during execution of the script)
+	psrnvsn2_assign3_results
+    |-- closed  <closed-0.txt,closed-1.txt,closed-2.txt,closed-3.txt,closed-4.txt> created during execution
+    |  
+    |-- max     <max-0.txt,max-1.txt,max-2.txt,max-3.txt,max-4.txt>		created during execution
+    |  
+    |-- patterns <pattern-0.txt,pattern-1.txt,pattern-2.txt,pattern-3.txt,pattern-4.txt> created during execution
+    |  
+    `-- weka   <weka-0.txt,weka-1.txt,weka-2.txt,weka-3.txt,weka-4.txt> created during execution
+   

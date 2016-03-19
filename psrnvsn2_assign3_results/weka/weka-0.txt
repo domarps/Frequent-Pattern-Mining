@@ -1,0 +1,19 @@
+lowerBoundMinSupport : 0.01
+minMetric : 0.3
+number of association rules : 12
+
+FPGrowth found 17 rules (displaying top 12)
+
+ 1. [series=1]: 209 ==> [time=1]: 194   <conf:(0.93)> lift:(16.65) lev:(0.02) conv:(12.33) 
+ 2. [mining=1, rule=1]: 159 ==> [association=1]: 123   <conf:(0.77)> lift:(23.13) lev:(0.01) conv:(4.15) 
+ 3. [mining=1, association=1]: 159 ==> [rule=1]: 123   <conf:(0.77)> lift:(18.68) lev:(0.01) conv:(4.12) 
+ 4. [association=1]: 336 ==> [rule=1]: 233   <conf:(0.69)> lift:(16.75) lev:(0.02) conv:(3.1) 
+ 5. [stream=1]: 211 ==> [data=1]: 141   <conf:(0.67)> lift:(5.21) lev:(0.01) conv:(2.59) 
+ 6. [rule=1]: 416 ==> [association=1]: 233   <conf:(0.56)> lift:(16.75) lev:(0.02) conv:(2.19) 
+ 7. [frequent=1]: 227 ==> [mining=1]: 127   <conf:(0.56)> lift:(4.83) lev:(0.01) conv:(1.99) 
+ 8. [rule=1, association=1]: 233 ==> [mining=1]: 123   <conf:(0.53)> lift:(4.56) lev:(0.01) conv:(1.86) 
+ 9. [association=1]: 336 ==> [mining=1]: 159   <conf:(0.47)> lift:(4.09) lev:(0.01) conv:(1.67) 
+10. [pattern=1]: 528 ==> [mining=1]: 203   <conf:(0.38)> lift:(3.32) lev:(0.01) conv:(1.43) 
+11. [rule=1]: 416 ==> [mining=1]: 159   <conf:(0.38)> lift:(3.3) lev:(0.01) conv:(1.43) 
+12. [approximation=1]: 304 ==> [algorithm=1]: 116   <conf:(0.38)> lift:(3.53) lev:(0.01) conv:(1.43) 
+
