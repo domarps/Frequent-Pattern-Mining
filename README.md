@@ -5,8 +5,6 @@ README - Machine Problem : Apriori Algorithm for Frequent Pattern Mining
 |-- data
 |-- psrnvsn2_assign3_codes
 |-- psrnvsn2_assign3_results
-    
-- 
 
 ```sh
 $ python psrnvsn2_apriori_hw3.py <min_support_value>
