@@ -38,5 +38,5 @@ $ python psrnvsn2_apriori_hw3.py <min_support_value>
     |  
     |-- patterns 
     |  
-    `-- weka  
+    |-- weka  
    
