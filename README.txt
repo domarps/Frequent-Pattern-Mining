@@ -1,18 +1,17 @@
 README - Machine Problem : Apriori Algorithm for Frequent Pattern Mining
 
-Name: Pramod Srinivasan
-NetId: psrnvsn2
-Email: psrnvsn2@illinois.edu
 
 - The submission directory contains three subdirectories, data, psrnvsn2_assign3_codes, psrnvsn2_assign3_results
 |-- data
-|   
 |-- psrnvsn2_assign3_codes
-|   
 |-- psrnvsn2_assign3_results
     
 - The  psrnvsn2_assign3_codes directory contains the source code :  psrnvsn2_apriori_hw3.py
-   Execution : python psrnvsn2_apriori_hw3.py <min_support_value>  # default : 100
+
+```sh
+$ python psrnvsn2_apriori_hw3.py <min_support_value>
+```
+
 - The data directory is **assumed** to contain the topic-* files required for the source code.
 	|-- data
 	|-- featureGenerator.py
